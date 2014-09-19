@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Elsie-Regular.ttf.ttx, Elsie-Black.ttf.ttx, src/Elsie-Black.otf.ttx,
+  src/Elsie-Regular.otf.ttx, src/Elsie-Regular-TTF.sfd, src/Elsie-Black-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
